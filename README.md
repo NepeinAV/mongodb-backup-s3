@@ -120,6 +120,10 @@ mongodbbackup:
 
 `DISABLE_CRON` - if set, it will skip setting up automated backups. good for when you want to use this container to seed a dev environment.
 
+`MONGODB_AUTH_DB` - --autenticationDatabase flag
+
+`ENDPOINT_URL` - your bucket endpoint URL
+
 ## Restore from a backup
 
 To see the list of backups, you can run:
